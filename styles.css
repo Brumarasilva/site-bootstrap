@@ -7,7 +7,7 @@ main {
 /* adicionar imagem de fundo no site  */
 body {
     background-image: url(img/paineldehamburgueria.jpg);
-    background-size: cover;
+    background-size:auto;
 
 
 }
