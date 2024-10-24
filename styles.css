@@ -1,3 +1,18 @@
 main {
+
     padding-top: 70px;
+}
+
+
+/* adicionar imagem de fundo no site  */
+body {
+    background-image: url(img/paineldehamburgueria.jpg);
+    background-size: cover;
+
+
+}
+
+.navbarnav {
+    background-color: maroon;
+    color: rgb(230, 240, 226);
 }
