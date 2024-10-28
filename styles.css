@@ -6,13 +6,26 @@ main {
 
 /* adicionar imagem de fundo no site  */
 body {
-    background-image: url(img/paineldehamburgueria.jpg);
-    background-size:auto;
+    background-image: url(img/imagemdefundo.jfif);
+    background-size: auto;
 
 
 }
 
 .navbarnav {
     background-color: maroon;
+    color: rgb(230, 240, 226);
+}
+
+
+
+
+
+.bg-custom-red {
+    background-color: red;
+    /* Cor vermelha */
+}
+
+.breadcrumb {
     color: rgb(230, 240, 226);
 }
