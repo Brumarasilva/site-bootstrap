@@ -26,6 +26,10 @@ body {
     /* Cor vermelha */
 }
 
-.breadcrumb {
-    color: rgb(230, 240, 226);
+.breadcrumb a {
+    color:floralwhite; /* Muda a cor do texto para branco */
+    
+}
+.breadcrumb-category { 
+    color:floralwhite;
 }
