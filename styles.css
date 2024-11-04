@@ -8,18 +8,12 @@ main {
 body {
     background-image: url(img/imagemdefundo.jfif);
     background-size: auto;
-
-
 }
 
 .navbarnav {
     background-color: maroon;
     color: rgb(230, 240, 226);
 }
-
-
-
-
 
 .bg-custom-red {
     background-color: red;
@@ -48,8 +42,11 @@ body {
     height:100%;
     object-fit: cover;
 }
-.fs-1{
+
+h1{
     background-color: ghostwhite;
     color: red;
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 50pt;
 }
-
