@@ -5,12 +5,9 @@ main {
 
 
 /* adicionar imagem de fundo no site  */
-body {
-    background-image: url(img/imagemdefundo.jfif);
-    background-size: auto;
 
 
-}
+
 
 .navbarnav {
     background-color: maroon;
