@@ -5,18 +5,21 @@ main {
 
 
 /* adicionar imagem de fundo no site  */
+<<<<<<< HEAD
 
 
 
+=======
+body {
+    background-image: url(img/imagemdefundo.jfif);
+    background-size: auto;
+}
+>>>>>>> 3c3709c22d7746df4b52d1b9ee913ea51d30fa2a
 
 .navbarnav {
     background-color: maroon;
     color: rgb(230, 240, 226);
 }
-
-
-
-
 
 .bg-custom-red {
     background-color: red;
@@ -45,6 +48,7 @@ main {
     height:100%;
     object-fit: cover;
 }
+<<<<<<< HEAD
 .fs-1{
     font-family: 'Callme';
     src: url('fontes/callme_script-webfont.woff') format('woff');
@@ -53,3 +57,13 @@ main {
     font-style: normal;
 }
 
+=======
+
+h1{
+    background-color: ghostwhite;
+    color: red;
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 50pt;
+}
+>>>>>>> 3c3709c22d7746df4b52d1b9ee913ea51d30fa2a
