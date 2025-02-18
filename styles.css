@@ -2,19 +2,29 @@ main {
 
     padding-top: 70px;
 }
+@font-face {
+    font-family: 'Callme';
+    src: url('fontes/callme_script-webfont.woff') format('woff');
+    src: url('fontes/callme_script-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /* adicionar imagem de fundo no site  */
-<<<<<<< HEAD
 
 
 
-=======
+
+
 body {
-    background-image: url(img/imagemdefundo.jfif);
-    background-size: auto;
+   
 }
->>>>>>> 3c3709c22d7746df4b52d1b9ee913ea51d30fa2a
+h1
+{
+    font-family: 'Callme';
+}
+
 
 .navbarnav {
     background-color: maroon;
@@ -48,7 +58,7 @@ body {
     height:100%;
     object-fit: cover;
 }
-<<<<<<< HEAD
+
 .fs-1{
     font-family: 'Callme';
     src: url('fontes/callme_script-webfont.woff') format('woff');
@@ -57,13 +67,13 @@ body {
     font-style: normal;
 }
 
-=======
+
 
 h1{
-    background-color: ghostwhite;
-    color: red;
-    text-align: center;
-    font-family: Arial Black;
-    font-size: 50pt;
+  
+    font-family: 'Callme';
+    
+
+    
 }
->>>>>>> 3c3709c22d7746df4b52d1b9ee913ea51d30fa2a
+
