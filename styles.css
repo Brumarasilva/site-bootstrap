@@ -1,79 +1,35 @@
-main {
-
-    padding-top: 70px;
-}
-@font-face {
-    font-family: 'Callme';
-    src: url('fontes/callme_script-webfont.woff') format('woff');
-    src: url('fontes/callme_script-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+.card {
+    max-width: 14rem;
+    margin: 1rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-
-/* adicionar imagem de fundo no site  */
-
-
-
-
-
-body {
-   
-}
-h1
-{
-    font-family: 'Callme';
-}
-
-
-.navbarnav {
-    background-color: maroon;
-    color: rgb(230, 240, 226);
-}
-
-.bg-custom-red {
-    background-color: red;
-    /* Cor vermelha */
-}
-
-.breadcrumb a {
-    color:floralwhite; /* Muda a cor do texto para branco */
-    
-}
-.breadcrumb-item.active {
-    color:floralwhite; 
-}
-.carousel-inner img{
-    height: 800px;
-    object-fit: convert;
-
-}
-.img-container{
-    height: 300px;
+.card-img-top {
+    height: 140px;
     object-fit: cover;
-  
-}
-.img-container img{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
-.fs-1{
-    font-family: 'Callme';
-    src: url('fontes/callme_script-webfont.woff') format('woff');
-    src: url('fontes/callme_script-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+.card-body {
+    padding: 0.75rem 1rem;
 }
 
-
-
-h1{
-  
-    font-family: 'Callme';
-    
-
-    
+.card-text {
+    font-size: 0.85rem;
 }
 
+.btn {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.3rem;
+}
+
+.row.g-3 {
+    gap: 1rem 1rem;
+}
+
+.col-6, .col-md-4, .col-lg-3 {
+    padding: 0 0.5rem;
+}
