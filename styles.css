@@ -165,3 +165,89 @@
 .footer .text-white-50 {
   color: rgba(255, 255, 255, 0.7);
 }
+
+/* === Corrigindo o layout da página Quem Somos === */
+
+/* Limpar float após a imagem */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Adicionando margem ao footer */
+footer {
+    margin-top: 50px;
+}
+
+/* === Melhorias para a seção Quem Somos === */
+
+/* Layout Flexível para a seção Quem Somos */
+.section-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* Ajustando o texto à esquerda e a imagem à direita */
+.section-text .text-content {
+    max-width: 50%;
+}
+
+.section-text .image-content {
+    max-width: 45%;
+}
+
+.section-text .image-content img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos e parágrafos */
+.section-text h1, 
+.section-text h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-text p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Botão CTA */
+.btn-primary {
+    background-color: #c45454;
+    border-color: #c45454;
+    padding: 10px 25px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #9a2e2e;
+    border-color: #9a2e2e;
+}
+
+/* Seção de Testemunhos */
+.testimonial {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testimonial em {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    color: #c45454;
+}
